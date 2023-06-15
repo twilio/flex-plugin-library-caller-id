@@ -1,7 +1,8 @@
 {
-  "name": "flex-plugin-library-caller-id",
+  "name": "plibc-caller-id",
   "version": "1.0.0",
   "private": true,
+  "id": "plibc-caller-id",
   "scripts": {
     "prebuild": "rimraf build && npm run bootstrap",
     "postinstall": "flex-plugin pre-script-check",
