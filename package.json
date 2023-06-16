@@ -1,5 +1,5 @@
 {
-  "name": "flex-plugin-library-caller-id",
+  "name": "plibc-caller-id",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -36,6 +36,6 @@
     "twilio-run": "3.4.2"
   },
   "engines": {
-    "node": "14"
+    "node": "16"
   }
 }
