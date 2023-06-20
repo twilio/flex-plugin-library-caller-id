@@ -1,7 +1,7 @@
 const { prepareFlexFunction, extractStandardResponse } = require(Runtime.getFunctions()[
-  'common/helpers/function-helper'
+  'helpers/function-helper'
 ].path);
-const PhoneNumberOpertions = require(Runtime.getFunctions()['common/twilio-wrappers/phone-numbers'].path);
+const PhoneNumberOpertions = require(Runtime.getFunctions()['caller-id/phone-numbers'].path);
 
 const requiredParameters = [];
 

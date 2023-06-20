@@ -6,12 +6,11 @@ import applySelectedCallerIdForDialedNumbers from './flex-hooks/actions/StartOut
 import ConfigureFlexStrings from './flex-hooks/strings';
 import CustomizePasteElements from './utils/PasteThemeProvider';
 import {addOutboundCallerIdSelectorToMainHeader} from './flex-hooks/components/OutboundDialerPanel'
-import AddReducers from '../src/flex-hooks/redux';
+import AddReducers from './flex-hooks/redux';
 const PLUGIN_NAME = 'CallerID';
 
 export default class ConferencePlugin extends FlexPlugin {
   constructor() {
-    console.log('Test bundle creation when this line is updated !!!');
     super(PLUGIN_NAME);
   }
 

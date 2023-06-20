@@ -68,7 +68,7 @@ class PhoneNumberService extends ApiService {
     };
 
     return this.fetchJsonWithReject<ListPhoneNumbersResponse>(
-      `${this.serverlessDomain}/phone-numbers/list-phone-numbers`,
+      `${this.serverlessDomain}/caller-id/list-phone-numbers`,
       {
         method: 'post',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -101,7 +101,7 @@ class PhoneNumberService extends ApiService {
     };
 
     return this.fetchJsonWithReject<ValidatePhoneNumberResponse>(
-      `${this.serverlessDomain}/phone-numbers/validate-phone-number`,
+      `${this.serverlessDomain}/caller-id/validate-phone-number`,
       {
         method: 'post',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
