@@ -15,7 +15,7 @@ const OutboundCallerIDSelectorComponent = () => {
   const dispatch = useDispatch();
 
   const { isFetchingPhoneNumbers, fetchingPhoneNumbersFailed, phoneNumbers, selectedCallerId } = useSelector(
-    (state: AppState) => state[reduxNamespace].outboundCallerIdSelector as OutboundCallerIDSelectorState,
+    (state: AppState) => state[reduxNamespace] as OutboundCallerIDSelectorState,
   );
 
   const [helpText, setHelpText] = useState(templates[StringTemplates.Loading]());
