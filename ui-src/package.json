@@ -14,7 +14,7 @@
     "@twilio-paste/icons": "^9.4.2",
     "@twilio/flex-dev-utils": "^5.1.3",
     "@twilio/flex-plugin-scripts": "6.0.3",
-    "twilio": "3.84.1",
+    "twilio": "4.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
