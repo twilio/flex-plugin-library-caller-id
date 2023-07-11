@@ -17,4 +17,4 @@ export default function applySelectedCallerIdForDialedNumbers(flex: typeof Flex,
       payload.callerId = selectedCallerId;
     }
   });
-};
+}
