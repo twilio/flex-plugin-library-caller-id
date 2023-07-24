@@ -6,4 +6,4 @@ export function addOutboundCallerIdSelectorToMainHeader(flex: typeof Flex) {
   flex.OutboundDialerPanel.Content.add(<OutboundCallerIDSelector key="outbound-callerid-selector" />, {
     sortOrder: 1,
   });
-};
+}
