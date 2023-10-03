@@ -1,5 +1,5 @@
 import * as Flex from '@twilio/flex-ui';
-import Analytics, {Event} from '../../utils/Analytics';
+import { Analytics, Event} from '../../utils/Analytics';
 
 import AppState, { reduxNamespace } from '../../types/AppState';
 
