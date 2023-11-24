@@ -10,9 +10,7 @@ export default function applySelectedCallerIdForDialedNumbers(flex: typeof Flex,
 
     if (!payload.callerId && selectedCallerId) {
      
-      Analytics.track(Event.CALLER_ID_SELECTED,{
-        taskSid: payload.task.taskSid
-      });
+      Analytics.track(Event.CALLER_ID_SELECTED,{});
      
       payload.callerId = selectedCallerId;
     }
