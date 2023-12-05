@@ -10,6 +10,8 @@ const { PhoneNumbersUtils } = require('@twilio/flex-plugins-library-utils');
  */
 
 exports.listPhoneNumbers = async function listPhoneNumbers(parameters) {
+  const { context } = parameters;
+
   const config = {
     attempts: 3,
   };
